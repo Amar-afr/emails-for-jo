@@ -31,6 +31,11 @@
             border-radius: 100px;
             margin: 10px;
         }
+        @media (max-width: 768px) {
+        button {
+        width: 100px;;
+        }
+        }
         button:hover {
             background-color:transparent;
             border: #000000 solid 1px;
@@ -50,7 +55,7 @@
     </style>
 </head>
 <body>
-    <!-- <h1>hi jo !</h1> -->
+    <!-- <h1>توليد ونسخ البيانات</h1> -->
     
     <span id="randomNumbers" class="output"><!-- *********** --></span>
     <button onclick="generateRandomNumbers()">copy numbers</button>
